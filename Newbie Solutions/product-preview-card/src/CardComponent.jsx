@@ -20,7 +20,7 @@ export default class CardComponent extends Component {
   }
   
   getImage(screen) {
-    if (screen <= 768) {
+    if (screen <= 640) {
       return image
     }
     return desk
@@ -28,7 +28,7 @@ export default class CardComponent extends Component {
 
   render() {
     return (
-        <div style={{backgroundColor: 'hsl(30, 38%, 92%)'}} className="h-screen md:flex justify-center items-center">
+      <main style={{backgroundColor: 'hsl(30, 38%, 92%)'}} className="min-h-screen md:flex justify-center items-center">
         <div className='py-[26px] px-[16px] rounded-lg md:rounded-none md:flex md:max-w-3xl md:max-h-5xl'>
           <img src={this.getImage(this.state.changeScreen)} className="rounded-t-lg object-cover w-full md:flex-1 md:rounded-none md:rounded-l-lg" />
           <div className='py-[24px] px-[24px] md:px-[36px] md:py-[42px] bg-whitee rounded-b-lg md:rounded-none md:rounded-r-lg md:flex-1'>
@@ -45,7 +45,7 @@ export default class CardComponent extends Component {
             </button>
           </div>
         </div>
-      </div>
+      </main>
     )
   }
 }
