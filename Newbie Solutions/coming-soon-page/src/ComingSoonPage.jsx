@@ -8,7 +8,7 @@ const ComingSoonPage = () => {
         <div className='md:pt-8'>
             <div className='flex flex-col justify-center items-center'>
                 <img className='mb-12 md:mb-8' src={logo} />
-                <h1 className='text-2xl text-gray tracking-wide'>We are launching <span className='font-bold text-veryDarkBlue'>soon!</span></h1>
+                <h1 className='text-3xl text-gray tracking-wide'>We are launching <span className='font-bold text-veryDarkBlue'>soon!</span></h1>
                 <p className='pt-4 pb-8 text-veryDarkBlue'>Subscribe and get notified</p>
             </div>
             
