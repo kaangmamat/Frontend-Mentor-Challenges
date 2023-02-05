@@ -27,15 +27,15 @@ const StatsPreviewCard = () => {
                     <p className='text-slightlyTransmain font-normal text-sm leading-relaxed tracking-wider pb-12'>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
                 </div>
                 <div className='flex flex-col sm:flex-row items-center font-lexendDeca space-y-5 sm:space-y-0 sm:space-x-10'>
-                    <div className='flex flex-col items-center'>
+                    <div className='flex flex-col items-center sm:items-starts'>
                         <span className='text-2xl font-bold'>100+</span>
                         <span className='uppercase font-normal text-sm tracking-wider text-slightlyTransmain pt-2'>companies</span>
                     </div>
-                    <div className='flex flex-col items-center'>
+                    <div className='flex flex-col items-center sm:items-starts'>
                         <span className='text-2xl font-bold'>314</span>
                         <span className='uppercase font-normal text-sm tracking-wider text-slightlyTransmain pt-2'>templates</span>
                     </div>
-                    <div className='flex flex-col items-center'>
+                    <div className='flex flex-col items-center sm:items-starts'>
                         <span className='text-2xl font-bold'>12M+</span>
                         <span className='uppercase font-normal text-sm tracking-wider text-slightlyTransmain pt-2'>queries</span>
                     </div>
