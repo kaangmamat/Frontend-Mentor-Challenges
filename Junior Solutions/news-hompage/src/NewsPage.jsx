@@ -22,7 +22,7 @@ const NewsPage = () => {
                         <div className='lg:max-w-[400px]'>
                             <h1 className='text-5xl font-bold mb-6 lg:mb-0 lg:text-6xl '>The Brigth Future of Web 3.0?</h1>
                         </div>
-                        <div className='lg:max-w-[330px] lg:px-2 lg:my-auto'>
+                        <div className='lg:max-w-[350px] lg:px-2 lg:my-auto'>
                             <p className='text-[15px] leading-7 text-darkGrayishblue mb-6'>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
                             <button className='py-3 px-8 bg-softRed hover:bg-veryDarkblue text-offWhite uppercase text-[15px] font-normal tracking-[0.2em]'>read more</button>
                         </div>
