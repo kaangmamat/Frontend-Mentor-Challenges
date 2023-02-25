@@ -49,7 +49,7 @@ const Navbar = () => {
                                             {list.id === "01" ? (<img className='object-contain h-[6px] w-[10px] ml-2' src={showFeature ? arrUp : arrDown} alt="Down" />) : list.id === "02" ? (<img className='object-contain ml-2' src={showCompany ? arrUp : arrDown} alt="Down" />) : undefined}
                                         </div>
                                     </div>
-                                    <li className={`${list.id == "01" && showFeature ? '' : list.id == "02" && showCompany ? '' : 'hidden'} flex flex-col space-y-2 ml-4`}>
+                                    <li className={`${list.id == "01" && showFeature ? 'pt-3' : list.id == "02" && showCompany ? 'pt-3' : 'hidden'} flex flex-col space-y-2 ml-4`}>
                                         {list.id === "01" ? dropDwnFeature.map((downF) => (<div key={downF.id} className=''>{showFeature ? (<a className='flex hover:text-almostBlack cursor-pointer' href={`#${downF.id}`}><img className='w-[14px] mr-3 object-contain' src={downF.img} alt={downF.title} /> {downF.title}</a>) : undefined}</div>)) : list.id === "02" ? dropDwnCompany.map((downC) => (<a key={downC.id} href={`#${downC.id}`} className='hover:text-almostBlack cursor-pointer'>{showCompany ? downC.title : undefined}</a>)) : undefined}
                                     </li>
                                 </div>
