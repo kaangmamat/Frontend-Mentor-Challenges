@@ -9,7 +9,7 @@ const Navbar = () => {
 
     useEffect(() => {
         const closeDropdown = e => {
-            if (e.target.tagName !== 'LI') {
+            if (e.target.tagName !== 'LI' && e.target.tagName !== 'A') {
                 setShowFeature(false)
                 setShowCompany(false)
             }
